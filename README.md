@@ -30,7 +30,7 @@ graph LR
   F --> G[PSO Coefficient Optimization]
   G --> H[K_MENA Climate Bias Map]
   H --> I[Dashboard & Reports]
-
+```
 ## 🧠 Methodology
 | Step | Algorithm | Purpose | Metrics |
 |------|-----------|---------|---------|
