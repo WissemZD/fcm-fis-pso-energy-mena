@@ -33,7 +33,7 @@ graph LR
 ```
 ## 🧠 Methodology
 | Step | Algorithm | Purpose | Metrics |
-|------|-----------|---------|---------|
+|-------|-----------|---------|---------|
 | **1. Clustering** | Fuzzy C-Means (`skfuzzy`) | Unsupervised pattern discovery in operational regimes | FPC, Silhouette Score |
 | **2. Inference** | Sugeno FIS (1st order) | Rule-based mapping: `y = a·T + b·HR + c·LF + d·ΔP + e` | RMSE, R², MAE |
 | **3. Optimization** | Global Best PSO (`pyswarms`) | Minimize RMSE between FIS output and actual yield | Convergence speed, Best cost |
