@@ -52,16 +52,16 @@ python 02_scripts/01_fcm_clustering.py
 python 02_scripts/05_pso_sugeno_optimization.py
 python 02_scripts/06_compare_results.py
 ```
-📈 Key Results
+## 📈 Key Results
 ✅ PSO convergence: RMSE reduced from 50% → 12.13% (quadruplet) in < 2 minutes
 📊 Humidity impact: Quadruplet outperforms Triplet by 0.89% RMSE
 🔥 Vectorization: 100× speedup vs Mamdani approach (1h45 → 1s)
 📉 FPC Score: 0.72 (Triplet) vs 0.66 (Quadruplet) — acceptable clustering quality
-🔬 Scientific Contributions
+## 🔬 Scientific Contributions
 First application of FCM-Sugeno-PSO hybrid for MENA industrial climate bias
 Quantitative validation of humidity as a discriminative feature
 Open-source reproducible pipeline with timestamped outputs
-🤝 Contributing & Academic Use
+## 🤝 Contributing & Academic Use
 This repository is designed for reproducible research. All scripts use robust path detection and timestamped outputs. Feel free to:
 🔀 Fork and adapt feature sets
 📡 Integrate real-time MQTT/InfluxDB streams
