@@ -51,7 +51,7 @@ python 02_scripts/03_fix_rendement.py
 python 02_scripts/01_fcm_clustering.py
 python 02_scripts/05_pso_sugeno_optimization.py
 python 02_scripts/06_compare_results.py
-
+```
 📈 Key Results
 ✅ PSO convergence: RMSE reduced from 50% → 12.13% (quadruplet) in < 2 minutes
 📊 Humidity impact: Quadruplet outperforms Triplet by 0.89% RMSE
