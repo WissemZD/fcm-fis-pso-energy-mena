@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260520_070817",
+  "configuration": "triplet",
+  "input_file": "fcm_output_20260517_202356.csv",
+  "total_samples": 3000,
+  "valid_predictions": 3000,
+  "metrics": {
+    "rmse": 45.12135876576908,
+    "r2": -121.31678804368775,
+    "mae": 41.75514614652978
+  },
+  "rules_count": 6,
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results\\triplet/fis_output_20260520_070817.csv",
+  "figures": [
+    "C:\\projets\\memoire_FCM\\03_results\\triplet/figures/fis_vs_reel_triplet.png"
+  ]
+}

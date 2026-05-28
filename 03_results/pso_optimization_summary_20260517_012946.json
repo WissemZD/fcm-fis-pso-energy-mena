@@ -1,0 +1,34 @@
+{
+  "timestamp": "20260517_012946",
+  "pso_configuration": {
+    "n_particles": 30,
+    "n_iterations": 30,
+    "c1": 2.0,
+    "c2": 2.0,
+    "w": 0.9,
+    "bounds": [
+      0.5,
+      2.0
+    ]
+  },
+  "optimization_result": {
+    "best_rmse": 63.379220546329236,
+    "optimal_weights": {
+      "R1: Conditions idéales": 1.6737149076235154,
+      "R2: Stress thermique": 1.8162406632144736,
+      "R3: Stress hygrométrique": 0.7904752666264172,
+      "R4: Biais T×HR combiné ⭐": 1.608433708955615,
+      "R5: Compensation LF": 0.7107647213767112,
+      "R6: Conditions normales": 0.5375476347954278
+    },
+    "convergence_iterations": 30
+  },
+  "final_metrics": {
+    "rmse": 66.0226182534809,
+    "r2": -8.568281012031171,
+    "mae": 50.997938022931116
+  },
+  "output_files": {
+    "convergence_plot": "C:\\projets\\memoire_FCM\\03_results/figures/pso_convergence.png"
+  }
+}

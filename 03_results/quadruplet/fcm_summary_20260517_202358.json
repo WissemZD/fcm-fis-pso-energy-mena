@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260517_202358",
+  "configuration": "Quadruplet (avec HR)",
+  "features": [
+    "T_amb",
+    "HR",
+    "LF",
+    "delta_P"
+  ],
+  "n_clusters": 3,
+  "fpc_score": 0.6581802310048172,
+  "n_samples": 3000,
+  "cluster_distribution": {
+    "0": 1079,
+    "1": 1040,
+    "2": 881
+  },
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results\\quadruplet/fcm_output_20260517_202358.csv",
+  "figures": [
+    "C:\\projets\\memoire_FCM\\03_results\\quadruplet/figures/fcm_projection_2d.png",
+    "C:\\projets\\memoire_FCM\\03_results\\quadruplet/figures/fcm_distribution.png"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-05-17T20:23:58.742229",
+  "triplet": {
+    "fpc": 0.7228613706645471,
+    "features": [
+      "T_amb",
+      "LF",
+      "delta_P"
+    ],
+    "output_csv": "C:\\projets\\memoire_FCM\\03_results\\triplet/fcm_output_20260517_202356.csv"
+  },
+  "quadruplet": {
+    "fpc": 0.6581802310048172,
+    "features": [
+      "T_amb",
+      "HR",
+      "LF",
+      "delta_P"
+    ],
+    "output_csv": "C:\\projets\\memoire_FCM\\03_results\\quadruplet/fcm_output_20260517_202358.csv"
+  },
+  "conclusion": "Triplet suffisant"
+}

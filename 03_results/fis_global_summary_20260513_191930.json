@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260513_191930",
+  "input_file": "fcm_global_output_20260510_183404.csv",
+  "strategy": "Global clustering + FIS biais climatique",
+  "features": [
+    "T_amb",
+    "HR",
+    "LF",
+    "delta_P"
+  ],
+  "total_samples": 3000,
+  "valid_predictions": 2401,
+  "fpc_score": 0.6582,
+  "metrics": {
+    "mean_prediction": 65.05774370384992,
+    "std_prediction": 24.661731667763654
+  },
+  "rules_count": 6,
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results/fis_global_output_20260513_191930.csv",
+  "figures": [
+    "C:\\projets\\memoire_FCM\\03_results/figures/fis_performance_vs_cluster.png",
+    "C:\\projets\\memoire_FCM\\03_results/figures/fis_heatmap_climat.png"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260517_202356",
+  "configuration": "Triplet (sans HR)",
+  "features": [
+    "T_amb",
+    "LF",
+    "delta_P"
+  ],
+  "n_clusters": 3,
+  "fpc_score": 0.7228613706645471,
+  "n_samples": 3000,
+  "cluster_distribution": {
+    "0": 1107,
+    "1": 1015,
+    "2": 878
+  },
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results\\triplet/fcm_output_20260517_202356.csv",
+  "figures": [
+    "C:\\projets\\memoire_FCM\\03_results\\triplet/figures/fcm_projection_2d.png",
+    "C:\\projets\\memoire_FCM\\03_results\\triplet/figures/fcm_distribution.png"
+  ]
+}

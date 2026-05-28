@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260516_121502",
+  "input_file": "fcm_global_output_20260510_183404.csv",
+  "strategy": "Global clustering + FIS (avant PSO)",
+  "features": [
+    "T_amb",
+    "HR",
+    "LF",
+    "delta_P"
+  ],
+  "total_samples": 3000,
+  "valid_predictions": 2401,
+  "metrics_before_pso": {
+    "rmse": 66.0226182534809,
+    "r2": -8.568281012031171,
+    "mae": 50.997938022931116
+  },
+  "rules_count": 6,
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results/fis_global_output_20260516_121502.csv",
+  "figures": [
+    "C:\\projets\\memoire_FCM\\03_results/figures/fis_vs_reel_avant_pso.png",
+    "C:\\projets\\memoire_FCM\\03_results/figures/fis_heatmap_climat.png"
+  ]
+}

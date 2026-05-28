@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260510_183404",
+  "strategy": "Global (all sites & regimes)",
+  "features": [
+    "T_amb",
+    "HR",
+    "LF",
+    "delta_P"
+  ],
+  "total_raw_rows": 3000,
+  "clean_rows": 3000,
+  "n_clusters": 3,
+  "fpc_score": 0.6581786808943934,
+  "cluster_distribution": {
+    "2": 1079,
+    "1": 1040,
+    "0": 881
+  },
+  "output_csv": "C:\\projets\\memoire_FCM\\03_results/fcm_global_output_20260510_183404.csv",
+  "output_fig": "C:\\projets\\memoire_FCM\\03_results/figures/fcm_global_multidim.png"
+}

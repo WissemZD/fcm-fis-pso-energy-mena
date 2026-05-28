@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-05-24T01:40:28.852541",
+  "configuration": "quadruplet",
+  "best_rmse": 48.89744252240874,
+  "optimal_weights": {
+    "Règle_1": 0.4618619002309805,
+    "Règle_2": 3.995507171215023,
+    "Règle_3": 0.902432880243214,
+    "Règle_4": 2.2804419413347055,
+    "Règle_5": 4.341880212572481,
+    "Règle_6": 0.8712444160951553
+  },
+  "convergence_iterations": 100,
+  "pso_parameters": {
+    "n_particles": 30,
+    "n_iterations": 100,
+    "c1": 1.5,
+    "c2": 1.5,
+    "w": 0.7,
+    "bounds": [
+      0.1,
+      5.0
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-05-17T20:23:36.373870",
+  "original_file": "C:\\projets\\memoire_FCM\\01_data\\dataset_MENA_FCM_v2.csv",
+  "corrected_file": "C:\\projets\\memoire_FCM\\03_results\\dataset_corrected.csv",
+  "statistics": {
+    "total_samples": 3000,
+    "p_mesuree": {
+      "min": 38.0,
+      "max": 90.0,
+      "mean": 60.55251
+    },
+    "p_ref": {
+      "min": 50.0,
+      "max": 50.0,
+      "mean": 50.0
+    },
+    "ratio_brut": {
+      "min": 0.76,
+      "max": 1.8,
+      "mean": 1.2110502,
+      "values_above_1": 2295,
+      "percentage_above_100": 76.5
+    },
+    "rendement_corrected": {
+      "min": 0.76,
+      "max": 1.0,
+      "mean": 0.9825457999999999
+    }
+  },
+  "correction_method": "clip_to_100",
+  "note": "P_mesuree > P_ref peut indiquer un biais climatique ou une référence mal définie"
+}

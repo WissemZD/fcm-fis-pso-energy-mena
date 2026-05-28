@@ -1,0 +1,30 @@
+{
+  "fcm_validation": {
+    "xie_beni_index": 1.3496740521554733,
+    "n_clusters": 3,
+    "fpc_score": 0.6582,
+    "cluster_distribution": {
+      "2": 1079,
+      "1": 1040,
+      "0": 881
+    }
+  },
+  "gmm_validation": {
+    "log_likelihood": -5.217094672302937,
+    "bic": 31654.848206794235,
+    "n_components": 3
+  },
+  "comparison_fcm_vs_gmm": {
+    "adjusted_rand_index": 0.9168482488759779,
+    "normalized_mutual_info": 0.8843166324573634
+  },
+  "external_metrics": {
+    "silhouette_score": 0.3376803360190882,
+    "calinski_harabasz_index": 1957.715874603041
+  },
+  "interpretation": {
+    "clustering_quality": "Moyen",
+    "fcm_gmm_agreement": "Fort",
+    "recommendation": "FCM validé par GMM"
+  }
+}
